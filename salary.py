@@ -21,7 +21,7 @@ def salary(hours, wage):
 #this computes the overtime py based on increased pay rate of 1.5 times the normal rate
         ovt = hours - 40
         ovt_pay = ovt*1.5*wage
-        total_comp = (40*wage) + ovt_pay
+        total_comp = (40*wage) + ovt*1.5*wage
         print("total compensation is " + str(total_comp))
 
 salary(hours, wage)

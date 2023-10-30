@@ -5,6 +5,6 @@ This program calculates the total weekly pay of its user by multiplying the fixe
 
 Total_weekly_pay = total_hours_worked(less than or exactly 40 hours) * wage_rate
 in the event of overtime:
-Total_weekly_pay = [(total_hours_worked - 40)* 1.5*wage_rate]  + (40*wage_rate)
+Total_weekly_pay = ((total_hours_worked - 40)* 1.5*wage_rate) + (40 * wage_rate)
 
 The above is a basic explanation of the code's purpose. Additionally, it throws a custom error using the "try-except" conditionals if the input from the user is a non-integer and it also throws an error if the input is a negative value. The program was written to solidify my knowledge on functions, variables and conditionals.
