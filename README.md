@@ -1,6 +1,6 @@
 This is a repository of all the Pyhton assignments given in the [*Python for Everybody Specialisation held on Coursear taught by Charles Russell Severance*](https://www.coursera.org/specializations/python). Below are a list of the projects and an explanation of their purpose.
 
-## 1. Salary Calculator:
+## 1. [Salary Calculator](https://github.com/DataBaby20/Python-assignments/blob/master/salary.py):
 This program calculates the total weekly pay of its user by multiplying the fixed hourly wage rate by the number of hours worked. In the even that the user works more than the usual 40 hours, the code computes an increased wage rate of 1.5 times the normal wage rate and thus leads to a higher compensation for any overtime work done.
 
 Total_weekly_pay = total_hours_worked(less than or exactly 40 hours) * wage_rate
