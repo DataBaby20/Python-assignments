@@ -8,5 +8,5 @@ In the event of overtime: Total_weekly_pay = ((total_hours_worked - 40)* 1.5*wag
 
 The above is a basic explanation of the code's purpose. Additionally, it throws a custom error using the "try-except" conditionals if the input from the user is a non-integer and it also throws an error if the input is a negative value. The program was written to solidify my knowledge on functions, variables and conditionals.
 
-## 2. [Number Accumulator]():
+## 2. [Number Accumulator](https://github.com/DataBaby20/Python-assignments/blob/master/number_accumulator.py):
 This program repeatedly takes in a users input until the user specifies that they are done providing input by typing in "done." Once the input has been received, the programme calculates the sum, average and count of all numbers received and returns the values.
