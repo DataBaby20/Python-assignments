@@ -10,3 +10,6 @@ The above is a basic explanation of the code's purpose. Additionally, it throws 
 
 ## 2. [Number Accumulator](https://github.com/DataBaby20/Python-assignments/blob/master/number_accumulator.py):
 This program repeatedly takes in a users input until the user specifies that they are done providing input by typing in "done." Once the input has been received, the programme calculates the sum, average and count of all numbers received and returns the values.
+
+## 3. [Slicing a string]():
+This program is given a hardcoded string and extracts the characters after the colon (:) then transforms those characters to floats.
