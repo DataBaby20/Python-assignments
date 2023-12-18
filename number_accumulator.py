@@ -19,9 +19,9 @@ while True:
             num = int(num)
         except:
             print("input valid integer")
+            quit()
     ##if no error is thrown then the list is updated with any new values and the loop continues
-        else:
-            num_list.append(num)
+        num_list.append(num)
 
             
         

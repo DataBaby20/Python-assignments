@@ -1,10 +1,10 @@
 
-#Exercise 1: this turns all the text in the hardcoded file into uppercase by iterating through each line
+#Exercise 4: this turns all the text in the hardcoded file into uppercase by iterating through each line
 new_file = open("mbox-short.txt")
 for line in new_file:
     print(line.upper())
 
-#Exercise 2: this takes in user input of a file name and locates the series of strings of form 
+#Exercise 5: this takes in user input of a file name and locates the series of strings of form 
 # "X-DSPAM-Confidence", selects the attached value after the colon and performs basic operations 
 prompt = input("Enter file name:")
 # this stores all the numeric results
