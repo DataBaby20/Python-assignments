@@ -1,6 +1,6 @@
 
 #Exercise 4: this turns all the text in the hardcoded file into uppercase by iterating through each line
-new_file = open("mbox-short.txt")
+new_file = open("file_operations/mbox-short.txt")
 for line in new_file:
     print(line.upper())
 

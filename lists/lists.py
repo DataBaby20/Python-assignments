@@ -7,7 +7,7 @@
 # if they do not, add the words to the "words"m list
 # sort and print the list
 
-romeo = open("romeo.txt")
+romeo = open("lists/romeo.txt")
 words = list()
 for line in romeo:
     line = line.split()
@@ -15,8 +15,8 @@ for line in romeo:
         if word not in words:
             words.append(word)
 
-#words.sort()
-#print(words)
+words.sort()
+print(words)
 
 # EXERCISE 5
 # this opens and reads, line-by-line, the mail file
@@ -24,14 +24,14 @@ for line in romeo:
 # it identifies the sender by splitting and locating the second word using its index of 1
 #it counts the number of times a line starting with "From" is found
 
-mbox = open("mbox-short.txt")
+fhand = open('lists/mbox-short.txt')
 count = 0
-for line in mbox:
-    if line.startswith("From"):
+for line in fhand:
+    words = line.split()
+    if len(words) > 2 and words[0] == 'From':
+        print(words[1])
         count += 1
-        line = line.split()
-        print(line[1])
-print(count)
+print('There were %d lines in the file with From as the first word' % count)
 
 #EXERCISE 6
 # a list called numbers is created

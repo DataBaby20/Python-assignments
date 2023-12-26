@@ -19,3 +19,6 @@ This [programs/exercise](https://github.com/DataBaby20/Python-assignments/blob/m
 
 ## 5. [Lists](https://github.com/DataBaby20/Python-assignments/tree/master/lists):
 The [exercises](https://github.com/DataBaby20/Python-assignments/blob/master/lists/lists.py) in this section on lists helped solidify basic knowledge on lists. It covered list manipulation such as slicing and indexing; it also explains the relationship between strings and lists. The text files used in this section can be found in the same folder as the code itself.This section contains 2 exercises which are suffeciently described using comments in the code.
+
+## 6. [Dictionaries]():
+This section and its [exercises]() introduced the concept of dictionaries and nature of dictionarues. It also introduced basic dictionary manipulation and how to utilise dictionaries to store and present information based on prior knowledge of lists, loops and strings.
