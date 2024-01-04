@@ -25,3 +25,6 @@ This section and its [exercises](https://github.com/DataBaby20/Python-assignment
 
 ## 7. [Tuples](https://github.com/DataBaby20/Python-assignments/tree/master/Tuples):
 This section introduces the concept of tuples and its charateristics. It shows how to perform a number of manipulations using strings, lists, dictionaries and tuples to gain insights into a given text file. The module further solidifies any prior knowledge on lists, dictionaries and strings while establishing a relationship with tuples.
+
+## 8. [Regular expressions]():
+This section introduced the concept of regular expressions, its numerous applications including data/text finding, text matching and text validation. The section provided a template/guide comprising of common regex character sequences and how they can be used in different scenarios.
